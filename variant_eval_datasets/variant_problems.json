@@ -1,0 +1,828 @@
+[
+  {
+    "ID": "3",
+    "Problem": "A plane contains 20 lines, no 2 of which are parallel. Suppose there are 2 points where exactly 3 lines intersect, 3 points where exactly 4 lines intersect, 4 points where exactly 5 lines intersect, 5 points where exactly 6 lines intersect, and no points where more than 6 lines intersect. Find the number of points where exactly 2 lines intersect.",
+    "Answer": 51,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Combinatorics",
+      "Counting Principles",
+      "Intersection Points",
+      "Geometry Problem Solving",
+      "Plane Geometry"
+    ],
+    "original_dataset": "aime_2023_problems",
+    "custom_id": "aime_2023_problems-3"
+  },
+  {
+    "ID": "4",
+    "Problem": "The sum of all positive integers \\(m\\) for which \\(\\frac{14!}{m}\\) is a perfect square can be written as \\(2^{a}3^{b}5^{c}7^{d}11^{e}13^{f}\\), where \\(a,b,c,d,e,\\) and \\(f\\) are positive integers. Find \\(a+b+c+d+e+f\\).",
+    "Answer": 15,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Number Theory",
+      "Factorial Operation",
+      "Prime Factorization",
+      "Perfect Squares"
+    ],
+    "original_dataset": "aime_2023_problems",
+    "custom_id": "aime_2023_problems-4"
+  },
+  {
+    "ID": "5",
+    "Problem": "Let P be a point on the circumcircle of square ABCD such that PA · PC = 63 and PB · PD = 117. What is the area of square ABCD?",
+    "Answer": "9√218",
+    "template_type": "Secondary Conclusion",
+    "knowledge_tags": [
+      "Geometric Properties",
+      "Square Properties",
+      "Circumcircle",
+      "Power of a Point Theorem",
+      "Coordinate Representation",
+      "Ptolemy's Theorem"
+    ],
+    "original_dataset": "aime_2023_problems",
+    "custom_id": "aime_2023_problems-5"
+  },
+  {
+    "ID": "6",
+    "Problem": "Alice knows that 4 red cards and 4 black cards will be revealed to her one at a time in random order. Before each card is revealed, Alice must guess its color. If Alice plays optimally, the expected number of cards she will guess correctly is \\(\\frac{m}{n}\\), where \\(m\\) and \\(n\\) are relatively prime positive integers. Find \\(m+n\\).",
+    "Answer": 443,
+    "template_type": "Knowledge Application",
+    "knowledge_tags": [
+      "Mathematical Expectation",
+      "Probability Calculation",
+      "Conditional Probability",
+      "Optimal Strategy",
+      "Combinatorics",
+      "Decision Theory"
+    ],
+    "original_dataset": "aime_2023_problems",
+    "custom_id": "aime_2023_problems-6"
+  },
+  {
+    "ID": "7",
+    "Problem": "Call a positive integer n extra-distinct if the remainders when n is divided by 3, 4, 5, 7, and 8 are distinct. Find the number of extra-distinct positive integers less than 1200.",
+    "Answer": 117,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Number Theory",
+      "Modular Arithmetic",
+      "Remainders",
+      "Congruence Relations",
+      "Counting Principles",
+      "Distinctness Condition"
+    ],
+    "original_dataset": "aime_2023_problems",
+    "custom_id": "aime_2023_problems-7"
+  },
+  {
+    "ID": "11",
+    "Problem": "Find the number of subsets of {1,2,3,…,12} that contain exactly one pair of consecutive integers. Examples of such subsets are {2,3,6} and {1,4,9,10}.",
+    "Answer": 744,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Combinatorics",
+      "Set Theory",
+      "Subset",
+      "Counting Principles",
+      "Casework",
+      "Consecutive Integers",
+      "Stars and Bars"
+    ],
+    "original_dataset": "aime_2023_problems",
+    "custom_id": "aime_2023_problems-11"
+  },
+  {
+    "ID": "15",
+    "Problem": "Find the largest prime number \\(p < 500\\) for which there exists a complex number \\(z\\) satisfying\n 1. the real and imaginary parts of \\(z\\) are both integers;\n 2. \\(\\lvert z\\rvert = \\sqrt{p}\\); and\n 3. there exists a triangle whose three side lengths are \\(p\\), the real part of \\(z^3\\), and the imaginary part of \\(z^3\\).",
+    "Answer": 349,
+    "template_type": "Knowledge Application",
+    "knowledge_tags": [
+      "Number Theory",
+      "Complex Numbers",
+      "Prime Numbers",
+      "Sum of Two Squares",
+      "Triangle Inequality",
+      "Integer Properties",
+      "Gaussian Integers"
+    ],
+    "original_dataset": "aime_2023_problems",
+    "custom_id": "aime_2023_problems-15"
+  },
+  {
+    "ID": "4",
+    "Problem": "Let \\(x,y\\) and \\(z\\) be positive real numbers satisfying\n\\[\n\\log_2\\!\\biggl(\\frac{x}{yz}\\biggr)=\\frac{1}{3},\\quad\n\\log_2\\!\\biggl(\\frac{y}{xz}\\biggr)=\\frac{1}{4},\\quad\n\\log_2\\!\\biggl(\\frac{z}{xy}\\biggr)=\\frac{1}{5}.\n\\]\nThen the value of \\(\\bigl|\\log_2(x^5y^4z^3)\\bigr|\\) is \\(\\tfrac{m}{n}\\), where \\(m\\) and \\(n\\) are relatively prime positive integers. Find \\(m+n\\).",
+    "Answer": 61,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-II",
+    "custom_id": "aime_2024_problems-2024-II-4"
+  },
+  {
+    "ID": "4",
+    "Problem": "Jen enters a lottery by picking 4 distinct numbers from S = {1, 2, 3, …, 12}. Four numbers are then drawn at random (without replacement) from S. She wins a prize if at least two of her chosen numbers are among the four drawn, and she wins the grand prize if all four of her chosen numbers are drawn. The probability that she wins the grand prize given that she won a prize can be written in lowest terms as m/n, where m and n are relatively prime positive integers. Find m + n.",
+    "Answer": 202,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-I",
+    "custom_id": "aime_2024_problems-2024-I-4"
+  },
+  {
+    "ID": "3",
+    "Problem": "Alice and Bob play the following game. A stack of \\(n\\) tokens lies before them. The players take turns with Alice going first. On each turn, the player removes either 2 tokens or 5 tokens from the stack. Whoever removes the last token wins. Find the number of positive integers \\(n\\) less than or equal to 1500 for which there exists a strategy for Bob that guarantees that Bob will win the game regardless of Alice’s play.",
+    "Answer": 643,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-I",
+    "custom_id": "aime_2024_problems-2024-I-3"
+  },
+  {
+    "ID": "11",
+    "Problem": "Each vertex of a regular decagon is independently colored either red or blue with equal probability. The probability that the decagon can then be rotated so that all of the blue vertices end up at positions where there were originally red vertices is \\(\\frac{m}{n}\\), where \\(m\\) and \\(n\\) are relatively prime positive integers. What is \\(m+n\\)?",
+    "Answer": 721,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-I",
+    "custom_id": "aime_2024_problems-2024-I-11"
+  },
+  {
+    "ID": "2",
+    "Problem": "There exist real numbers \\(x\\) and \\(y\\), both greater than 1, such that \n\\[\n\\log_x\\bigl(y^x\\bigr)\\;=\\;\\log_y\\bigl(x^{3y}\\bigr)\\;=\\;12.\n\\]\nFind the value of \\(xy\\).",
+    "Answer": 48,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-I",
+    "custom_id": "aime_2024_problems-2024-I-2"
+  },
+  {
+    "ID": "6",
+    "Problem": "Alice chooses a set A of positive integers. Then Bob lists all finite nonempty sets B of positive integers with the property that the maximum element of B belongs to A. Bob’s list has 500 sets. Find the sum of the elements of A.",
+    "Answer": 38,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-II",
+    "custom_id": "aime_2024_problems-2024-II-6"
+  },
+  {
+    "ID": "7",
+    "Problem": "Find the largest possible real part of \n\\[\n(2 + i)\\,z \\;+\\;\\frac{27 + 24\\,i}{z}\n\\]\nwhere \\(z\\) is a complex number with \\(|z| = 3\\).",
+    "Answer": "5√10",
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-I",
+    "custom_id": "aime_2024_problems-2024-I-7"
+  },
+  {
+    "ID": "1",
+    "Problem": "Every morning Aya goes for a 12-kilometer-long walk and stops at a coffee shop afterwards. When she walks at a constant speed of s kilometers per hour, the walk takes her 5 hours, including t minutes spent in the coffee shop. When she walks at s + 3 kilometers per hour, the walk takes her 3 hours, including t minutes spent in the coffee shop. Suppose Aya walks at s + 1 kilometers per hour. Find the number of minutes the walk takes her, including the t minutes spent in the coffee shop.",
+    "Answer": 240,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-I",
+    "custom_id": "aime_2024_problems-2024-I-1"
+  },
+  {
+    "ID": "6",
+    "Problem": "Consider the paths of length 12 that follow the lines from the lower left corner to the upper right corner on a 6×6 grid. Find the number of such paths that change direction exactly four times, as in the examples shown below.",
+    "Answer": 100,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-I",
+    "custom_id": "aime_2024_problems-2024-I-6"
+  },
+  {
+    "ID": "10",
+    "Problem": "Let triangle \\(ABC\\) have circumcenter \\(O\\) and incenter \\(I\\) with \\(\\overline{IA}\\perp\\overline{OI}\\), circumradius \\(17\\), and inradius \\(8\\). Find \\(AB\\cdot AC\\).",
+    "Answer": 816,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-II",
+    "custom_id": "aime_2024_problems-2024-II-10"
+  },
+  {
+    "ID": "9",
+    "Problem": "There is a collection of 16 indistinguishable white chips and 16 indistinguishable black chips. Find the number of ways to place some of these chips in the 16 unit cells of a 4×4 grid such that:\n\neach cell contains at most one chip  \nall chips in the same row and all chips in the same column have the same colour  \nany additional chip placed on the grid would violate one or more of the previous two conditions.",
+    "Answer": 198,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-II",
+    "custom_id": "aime_2024_problems-2024-II-9"
+  },
+  {
+    "ID": "5",
+    "Problem": "Let ABCDEF be a convex equilateral hexagon in which all pairs of opposite sides are parallel. The triangle whose sides are extensions of segments AB, CD, and EF has side lengths 120, 144, and 180. Find the side length of the hexagon.",
+    "Answer": 48,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-II",
+    "custom_id": "aime_2024_problems-2024-II-5"
+  },
+  {
+    "ID": "9",
+    "Problem": "Let A, B, C, and D be points on the hyperbola \\(\\frac{x^2}{9} - \\frac{y^2}{16} = 1\\) such that \\(ABCD\\) is a rhombus whose diagonals intersect at the origin. Find the greatest real number that is less than \\(BD^2\\) for all such rhombi.",
+    "Answer": "576/7",
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-I",
+    "custom_id": "aime_2024_problems-2024-I-9"
+  },
+  {
+    "ID": "14",
+    "Problem": "Let \\(ABCD\\) be a tetrahedron such that \n\\[\nAB = CD = \\sqrt{57}, \n\\quad AC = BD = \\sqrt{72}, \n\\quad BC = AD = \\sqrt{85}.\n\\]\nThere exists a point \\(I\\) inside the tetrahedron such that the distances from \\(I\\) to each of the faces of the tetrahedron are all equal.  This common distance can be written in the form \n\\[\n\\frac{m\\sqrt{n}}{p},\n\\]\nwhere \\(m\\), \\(n\\), and \\(p\\) are positive integers, \\(m\\) and \\(p\\) are relatively prime, and \\(n\\) is squarefree.  Find \\(m + n + p\\).",
+    "Answer": 14304,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-I",
+    "custom_id": "aime_2024_problems-2024-I-14"
+  },
+  {
+    "ID": "13",
+    "Problem": "Let ω ≠ 1 be an 11th root of unity. Find the remainder when\n\\[ \\prod_{k=0}^{10}\\bigl(3 - 3\\omega^k + \\omega^{2k}\\bigr) \\]\nis divided by 1000.",
+    "Answer": 419,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2024_problems-2024-II",
+    "custom_id": "aime_2024_problems-2024-II-13"
+  },
+  {
+    "ID": "0",
+    "Problem": "Find the sum of all integer bases \\(b > 7\\) for which \\(34_b\\) is a divisor of \\(75_b\\).",
+    "Answer": 0,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-0"
+  },
+  {
+    "ID": "2",
+    "Problem": "The 10 members of a baseball team went to an ice cream parlor after their game. Each player had a single‐scoop cone of chocolate, vanilla, or strawberry ice cream. At least one player chose each flavor, and the number of players who chose chocolate was greater than the number who chose vanilla, which was greater than the number who chose strawberry. Let N be the number of different assignments of flavors to players that meet these conditions. Find the remainder when N is divided by 1000.",
+    "Answer": 980,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-2"
+  },
+  {
+    "ID": "3",
+    "Problem": "Find the number of ordered pairs (x, y), where both x and y are integers between –90 and 90 inclusive, such that\n\\[15x^2 \\;-\\; x y \\;-\\; 2y^2 \\;=\\; 0.\\]",
+    "Answer": 97,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-3"
+  },
+  {
+    "ID": "5",
+    "Problem": "An isosceles trapezoid has an inscribed circle tangent to each of its four sides. The radius of the circle is 4, and the area of the trapezoid is 96. Let the parallel sides of the trapezoid have lengths r and s, with r ≠ s. Find r² + s².",
+    "Answer": 448,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-5"
+  },
+  {
+    "ID": "6",
+    "Problem": "The ten letters A, B, C, D, E, F, G, H, I, and J are randomly grouped into five pairs of letters. The two letters in each pair are placed next to each other in alphabetical order to form five two-letter words, and those five words are listed alphabetically. For example, a possible result is AJ, BC, DE, FG, HI. The probability that the last word listed contains H is \\(\\frac{m}{n}\\), where \\(m\\) and \\(n\\) are relatively prime positive integers. Find \\(m+n\\).",
+    "Answer": 443,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-6"
+  },
+  {
+    "ID": "7",
+    "Problem": "Let k be a real number such that the system\n\\[\n\\bigl|8+6i - z\\bigr| = 4\n\\quad\\text{and}\\quad\n\\bigl|z - (3 + k)\\bigr| = \\bigl|z - (5i + k)\\bigr|\n\\]\nhas exactly one complex solution z. The sum of all possible values of k can be written as \\(\\frac{m}{n}\\), where m and n are relatively prime positive integers. Find m+n. Here \\(i=\\sqrt{-1}\\).",
+    "Answer": 7,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-7"
+  },
+  {
+    "ID": "11",
+    "Problem": "The set of points in 3-dimensional coordinate space that lie in the plane \\(x+y+z=60\\) whose coordinates satisfy the inequalities \n\\[\nx - yz \\;<\\; y - zx \\;<\\; z - xy\n\\]\nforms three disjoint convex regions. Exactly one of those regions has finite area. The area of this finite region can be expressed in the form \\(a\\sqrt{b}\\), where \\(a\\) and \\(b\\) are positive integers and \\(b\\) is not divisible by the square of any prime. Find \\(a+b\\).",
+    "Answer": 303,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-11"
+  },
+  {
+    "ID": "12",
+    "Problem": "Alex divides a disk into four quadrants with two perpendicular diameters intersecting at the center of the disk. He then draws 15 additional line segments by selecting for each segment two points at random on the perimeter of the disk that lie in different quadrants and connecting them. Find the expected number of regions into which these 17 line segments divide the disk.",
+    "Answer": 74,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-12"
+  },
+  {
+    "ID": "15",
+    "Problem": "Six points A, B, C, D, E and F lie in a straight line in that order. Suppose that G is a point not on the line and that AC = 20, BD = 27, CE = 24, DF = 31, AF = 72, CG = 17, and DG = 10. Find the area of triangle BGE.",
+    "Answer": 120,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-15"
+  },
+  {
+    "ID": "17",
+    "Problem": "Three unit squares form a 1×3 grid. Each of the 10 unit line segments forming the sides of the squares is colored either red or blue in such a way that each unit square has 2 red sides and 2 blue sides. Find the number of such colorings.",
+    "Answer": 54,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-17"
+  },
+  {
+    "ID": "19",
+    "Problem": "Suppose $\\triangle ABC$ has angles $\\angle BAC = 75^\\circ$, $\\angle ABC = 65^\\circ$, and $\\angle ACB = 40^\\circ$. Let $D$, $E$, and $F$ be the midpoints of sides $\\overline{BC}$, $\\overline{AC}$, and $\\overline{AB}$, respectively. The circumcircle of $\\triangle DEF$ intersects $\\overline{BD}$, $\\overline{AE}$, and $\\overline{AF}$ at points $G$, $H$, and $J$, respectively. The points $G$, $D$, $E$, $H$, $J$, and $F$ divide the circumcircle of $\\triangle DEF$ into six minor arcs. Find $\\wideparen{DE} + 2\\cdot\\wideparen{HJ} + 3\\cdot\\wideparen{FG}$, where the arcs are measured in degrees.",
+    "Answer": 440,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-19"
+  },
+  {
+    "ID": "21",
+    "Problem": "Let A be the set of positive integer divisors of 1125. Let B be a randomly selected subset of A. The probability that B is a nonempty set with the property that the least common multiple of its elements is 1125 is m/n, where m and n are relatively prime positive integers. Find m + n.",
+    "Answer": 117,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-21"
+  },
+  {
+    "ID": "22",
+    "Problem": "From an unlimited supply of 1-cent coins, 6-cent coins, and 19-cent coins, Silas wants to find a collection of coins that has a total value of N cents, where N is a positive integer. He uses the so-called greedy algorithm, successively choosing the coin of greatest value that does not cause the value of his collection to exceed N. For example, to get 26 cents, Silas will choose a 19-cent coin, then 7 1-cent coins. However, this collection of 8 coins uses more coins than necessary to get a total of 26 cents; indeed, choosing 4 6-cent coins and 2 1-cent coins achieves the same total with only 6 coins.\n\nIn general, the greedy algorithm succeeds for a given N if no other collection of 1-cent, 6-cent, and 19-cent coins gives a total value of N cents using strictly fewer coins than the collection given by the greedy algorithm. Find the number of values of N between 1 and 500 inclusive for which the greedy algorithm succeeds.",
+    "Answer": 424,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-22"
+  },
+  {
+    "ID": "23",
+    "Problem": "There are n values of x in the interval 0 < x < 2π where \n\\(f(x) = \\sin\\bigl(5\\pi \\,\\sin(3x)\\bigr) = 0.\\) \nFor t of these n values of x, the graph of y = f(x) is tangent to the x-axis. Find n + t.",
+    "Answer": 65,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-23"
+  },
+  {
+    "ID": "24",
+    "Problem": "Eighteen chairs are arranged in a row. Seven people each select a chair in which to sit so that no person sits next to two other people. Let N be the number of subsets of the 18 chairs that could be selected. Find the remainder when N is divided by 1000.",
+    "Answer": 236,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-24"
+  },
+  {
+    "ID": "25",
+    "Problem": "Let \\(S\\) be the set of vertices of a regular 30-gon. Find the number of ways to draw 15 segments of equal length so that each vertex in \\(S\\) is an endpoint of exactly one of the 15 segments.",
+    "Answer": 57,
+    "template_type": "Unknown",
+    "knowledge_tags": [],
+    "original_dataset": "aime_2025_problems-2025-I",
+    "custom_id": "aime_2025_problems-2025-I-25"
+  },
+  {
+    "ID": "0",
+    "Problem": "Cities A and B are 70 miles apart. Alicia lives in A and Beth lives in B. Alicia bikes toward B at 20 miles per hour. Leaving at the same time, Beth bikes toward A at 15 miles per hour. How many miles from City A will they be when they meet?",
+    "Answer": "40 miles",
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Algebraic Method",
+      "Equation Solving",
+      "Rate Problems",
+      "Relative Speed"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-0"
+  },
+  {
+    "ID": "1",
+    "Problem": "Positive real numbers x and y satisfy \\(y^4 = x^2\\) and \\((y - x)^2 = 9y^2\\). What is \\(x + y\\)?",
+    "Answer": 20,
+    "template_type": "Important Formulas and Rules",
+    "knowledge_tags": [
+      "Properties of Exponent Operations",
+      "System of Equations",
+      "Algebraic Transformation",
+      "Substitution Method"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-1"
+  },
+  {
+    "ID": "2",
+    "Problem": "What is the degree measure of the acute angle formed by lines with slopes 4 and 1/2?",
+    "Answer": "49.4°",
+    "template_type": "Important Formulas and Laws",
+    "knowledge_tags": [
+      "Coordinate Geometry",
+      "Slope of a Line",
+      "Angle Between Lines Formula",
+      "Trigonometric Functions",
+      "Tangent Function"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-2"
+  },
+  {
+    "ID": "3",
+    "Problem": "What is the value of\n\\[2^3 \\;-\\; 1^3 \\;+\\; 4^3 \\;-\\; 3^3 \\;+\\; 6^3 \\;-\\; 5^3 \\;+\\; \\dots \\;+\\; 20^3 \\;-\\; 19^3?\\]",
+    "Answer": 4300,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Summation",
+      "Algebraic Manipulation",
+      "Difference of Cubes",
+      "Pattern Recognition",
+      "Telescoping Series"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-3"
+  },
+  {
+    "ID": "5",
+    "Problem": "How many complex numbers satisfy the equation z^7 = \\overline{z}, where \\overline{z} denotes the complex conjugate of z?",
+    "Answer": 9,
+    "template_type": "Secondary Conclusion",
+    "knowledge_tags": [
+      "Complex Numbers",
+      "Modulus of Complex Numbers",
+      "Roots of Unity",
+      "Conjugate Complex Numbers",
+      "Polar Form",
+      "Equation Solving"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-5"
+  },
+  {
+    "ID": "8",
+    "Problem": "Flora the frog starts at 0 on the number line and makes a sequence of jumps to the right. In any one jump, independent of previous jumps, Flora leaps a positive integer distance m with probability 1/2^m. What is the probability that Flora will eventually land at 12? Write the answer as a simplified fraction m/n, find m+n.",
+    "Answer": 3,
+    "template_type": "Knowledge Application",
+    "knowledge_tags": [
+      "Probability Calculation",
+      "Geometric Series",
+      "Recurrence Relations",
+      "Infinite Series",
+      "Expected Value",
+      "State Transitions"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-8"
+  },
+  {
+    "ID": "11",
+    "Problem": "The weight of 1/4 of a large pizza together with 5 1/3 cups of orange slices is the same as the weight of 2/3 of a large pizza together with 2/3 cup of orange slices. A cup of orange slices weighs 1/6 of a pound. What is the weight, in pounds, of a large pizza? The answer can be written in the form m/n, where m and n are relatively prime positive integers. What is m − n?",
+    "Answer": 13,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Algebraic Method",
+      "Equation Solving",
+      "Word Problems",
+      "Fractions"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-11"
+  },
+  {
+    "ID": "12",
+    "Problem": "Rows 1, 2, 3, 4, and 5 of a triangular array of integers are shown below.\n1  \n1 1  \n1 3 1  \n1 5 5 1  \n1 7 11 7 1  \n\nEach row after the first is formed by placing a 1 at each end of the row, and each interior entry is 1 greater than the sum of the two numbers diagonally above it in the previous row. What is the units digit of the sum of the 2019 numbers in the 2019th row?",
+    "Answer": 9,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Pattern Recognition",
+      "Sequences",
+      "Modular Arithmetic",
+      "Units Digit",
+      "Recurrence Relations"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-12"
+  },
+  {
+    "ID": "14",
+    "Problem": "Let \\(f\\) be the unique function defined on the positive integers such that\n\\[\n\\sum_{d\\mid n} d \\cdot f\\bigl(\\tfrac{n}{d}\\bigr) \\;=\\; 1\n\\]\nfor every positive integer \\(n\\). What is \\(f(2021)\\)?",
+    "Answer": 1932,
+    "template_type": "Knowledge Application",
+    "knowledge_tags": [
+      "Number Theory",
+      "Divisor Function",
+      "Dirichlet Convolution",
+      "Multiplicative Functions",
+      "Möbius Inversion"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-14"
+  },
+  {
+    "ID": "16",
+    "Problem": "Let K be the number of sequences A₁, A₂, …, Aₙ such that n is a positive integer less than or equal to 8, each Aᵢ is a subset of {1,2,3,…,8}, and Aᵢ₋₁ ⊆ Aᵢ for each i from 2 to n. For example, ∅, {2,5}, {2,4,5}, {2,4,5,7} is one such sequence, with n = 4. What is the remainder when K is divided by 7?",
+    "Answer": 4,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Combinatorics",
+      "Set Theory",
+      "Counting Principles",
+      "Sequences",
+      "Recurrence Relations",
+      "Ordered Bell Numbers",
+      "Modular Arithmetic"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-16"
+  },
+  {
+    "ID": "17",
+    "Problem": "There is a unique sequence of integers $a_1, a_2, \\cdots a_{53}$ such that\n\\[\n\\tan 53x = \\frac{a_1 \\tan x + a_3 \\tan^3 x + a_5 \\tan^5 x + \\cdots + a_{53} \\tan^{53} x}{1 + a_2 \\tan^2 x + a_4 \\tan^4 x \\cdots + a_{52} \\tan^{52} x}\n\\]\nwhenever $\\tan 53x$ is defined. What is $a_{53}$?",
+    "Answer": 1,
+    "template_type": "Important Formulas and Laws",
+    "knowledge_tags": [
+      "Trigonometric Identities",
+      "Multiple Angle Formulas",
+      "Complex Numbers",
+      "De Moivre's Theorem",
+      "Binomial Theorem",
+      "Polynomial Expansion"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-17"
+  },
+  {
+    "ID": "18",
+    "Problem": "How many positive perfect squares less than 1500 are divisible by 7?",
+    "Answer": 5,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Number Theory",
+      "Perfect Squares",
+      "Divisibility Rules",
+      "Counting"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-18"
+  },
+  {
+    "ID": "19",
+    "Problem": "How many digits are in the base-ten representation of \\(9^6 \\cdot 5^{12} \\cdot 14^6\\)?",
+    "Answer": 21,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Number Theory",
+      "Properties of Exponent Operations",
+      "Logarithms",
+      "Number of Digits",
+      "Prime Factorization"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-19"
+  },
+  {
+    "ID": "20",
+    "Problem": "Alice rolls a fair 8-sided die 5 times and keeps a running total of the numbers she rolls. What is the probability that at some point her running total will equal 4? The final answer can be written in the form m/n, where m and n are relatively prime positive integers. What is m+n?",
+    "Answer": 4825,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Probability Calculation",
+      "Discrete Probability",
+      "Sample Space",
+      "Casework",
+      "Counting Principles",
+      "Complementary Counting",
+      "Sequential Events"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-20"
+  },
+  {
+    "ID": "22",
+    "Problem": "A digital display shows the current date as an 8-digit integer consisting of a 4-digit year, followed by a 2-digit month, followed by a 2-digit date within the month. For example, Pi Day in 2025 is displayed as 20250314. For how many dates in 2025 will each digit appear an even number of times in the 8-digit display for that date?",
+    "Answer": 6,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Combinatorics",
+      "Counting Principles",
+      "Digit Properties",
+      "Parity",
+      "Casework",
+      "Calendar Calculations"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-22"
+  },
+  {
+    "ID": "23",
+    "Problem": "Maureen is keeping track of the mean of her quiz scores this semester. If Maureen scores a 14 on the next quiz, her mean will increase by 1. If she scores a 14 on each of the next four quizzes, her mean will increase by 3. What is the mean of her quiz scores currently?",
+    "Answer": 5,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Algebraic Method",
+      "Statistics",
+      "Mean",
+      "Equation Solving",
+      "System of Equations"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-23"
+  },
+  {
+    "ID": "25",
+    "Problem": "Mrs. Jones is pouring orange juice into four identical glasses for her four sons. She fills the first three glasses completely but runs out of juice when the fourth glass is only 2/5 full. What fraction of a glass must Mrs. Jones pour from each of the first three glasses into the fourth glass so that all four glasses will have the same amount of juice? The final answer can be written in the form m/n, where m and n are relatively prime positive integers. What is m+n?",
+    "Answer": 23,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Algebraic Method",
+      "Fractions",
+      "Ratio and Proportion",
+      "Equation Solving",
+      "Word Problems",
+      "Average"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-25"
+  },
+  {
+    "ID": "26",
+    "Problem": "In the xy-plane, a circle of radius 5 with center on the positive x-axis is tangent to the y-axis at the origin, and a circle of radius 12 with center on the positive y-axis is tangent to the x-axis at the origin. What is the slope of the line passing through the two points at which these circles intersect? The final answer can be written in the form m/n, where m and n are relatively prime positive integers. What is m+n?",
+    "Answer": 17,
+    "template_type": "Knowledge Application",
+    "knowledge_tags": [
+      "Coordinate Geometry",
+      "Equation of a Circle",
+      "Intersection of Circles",
+      "Slope of a Line",
+      "System of Equations",
+      "Radical Axis"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-26"
+  },
+  {
+    "ID": "27",
+    "Problem": "Calculate the maximum area of an isosceles trapezoid that has legs of length 2 and one base twice as long as the other. The final answer can be written in the form m/n, where m and n are relatively prime positive integers. What is m^2 + n^2?",
+    "Answer": 37,
+    "template_type": "Knowledge Application",
+    "knowledge_tags": [
+      "Plane Geometry",
+      "Trapezoid Properties",
+      "Area Calculation",
+      "Optimization Problems",
+      "Trigonometry",
+      "Calculus",
+      "Geometric Formulas",
+      "Pythagorean Theorem"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-27"
+  },
+  {
+    "ID": "28",
+    "Problem": "For complex numbers \\(u = a + bi\\) and \\(v = c + di\\) (where \\(i = \\sqrt{-1}\\)), define the binary operation\n\\[\nu \\otimes v = ac + bdi.\n\\]\nSuppose \\(z\\) is a complex number such that\n\\[\nz \\otimes z = z^2 + 55.\n\\]\nWhat is \\(\\lvert z\\rvert^2\\)?",
+    "Answer": "275/4",
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Complex Numbers",
+      "Algebraic Operations on Complex Numbers",
+      "Modulus of Complex Numbers",
+      "Definition-Based Problems",
+      "Equation Solving"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-28"
+  },
+  {
+    "ID": "30",
+    "Problem": "For how many ordered pairs (a, b) of integers does the polynomial \n\\[x^3 + a x^2 + b x + 12\\]\nhave three distinct integer roots?",
+    "Answer": 10,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Polynomials",
+      "Integer Roots",
+      "Vieta's Formulas",
+      "Number Theory",
+      "Divisors",
+      "Factorization",
+      "Counting"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-30"
+  },
+  {
+    "ID": "32",
+    "Problem": "In the state of Coinland, coins have values 6, 9, and 20 cents. Suppose \\(x\\) is the value in cents of the most expensive item in Coinland that cannot be purchased using these coins with exact change. What is the sum of the digits of \\(x\\)?",
+    "Answer": 7,
+    "template_type": "Knowledge Application",
+    "knowledge_tags": [
+      "Number Theory",
+      "Linear Diophantine Equations",
+      "Frobenius Coin Problem",
+      "Greatest Common Divisor",
+      "Modular Arithmetic"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-32"
+  },
+  {
+    "ID": "36",
+    "Problem": "Carlos went to a sports store to buy running shoes. Running shoes were on sale, with prices reduced by 25% on every pair. Carlos also knew that he had to pay an 8% sales tax on the discounted price. He had \\$56. What is the original (before discount) price of the most expensive shoes he could afford to buy?",
+    "Answer": "$69.13",
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Algebraic Method",
+      "Percentages",
+      "Equation Solving",
+      "Word Problems",
+      "Inequalities"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-36"
+  },
+  {
+    "ID": "43",
+    "Problem": "An 8-15-17 right triangle is inscribed in circle A, and a 7-24-25 right triangle is inscribed in circle B. Find the ratio of the area of circle A to the area of circle B. The final answer can be written in the form m/n, where m and n are relatively prime positive integers. What is m+n?",
+    "Answer": 914,
+    "template_type": "Knowledge Application",
+    "knowledge_tags": [
+      "Plane Geometry",
+      "Circle Properties",
+      "Inscribed Angle Theorem",
+      "Right Triangle Properties",
+      "Area of Circle",
+      "Ratio",
+      "Circumradius"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-43"
+  },
+  {
+    "ID": "44",
+    "Problem": "Jackson’s paintbrush makes a narrow strip with a width of 7.3 millimeters. Jackson has enough paint to make a strip 28 meters long. How many square centimeters of paper could Jackson cover with paint?",
+    "Answer": "2044 square centimeters",
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Geometry",
+      "Area Calculation",
+      "Units Conversion",
+      "Rectangle Properties"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-44"
+  },
+  {
+    "ID": "46",
+    "Problem": "When the roots of the polynomial\n\\[P(x) = (x-2)^1 (x-3)^2 (x-4)^3 (x-5)^4 (x-6)^5 (x-7)^6 (x-8)^7 (x-9)^8 (x-10)^9 (x-11)^{10}\\]\nare removed from the number line, what remains is the union of 11 disjoint open intervals. On how many of these intervals is \\(P(x)\\) positive?",
+    "Answer": 6,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Polynomials",
+      "Roots of Polynomials",
+      "Sign Analysis",
+      "Intervals",
+      "Parity of Exponents",
+      "Multiplicity of Roots"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-46"
+  },
+  {
+    "ID": "48",
+    "Problem": "How many nonempty subsets B of {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10} have the property that the number of elements in B is equal to the least element of B? For example, B = {4, 6, 8, 10} satisfies the condition.",
+    "Answer": 55,
+    "template_type": "Problem Solving Method",
+    "knowledge_tags": [
+      "Combinatorics",
+      "Set Theory",
+      "Subset",
+      "Counting Principles",
+      "Combinations",
+      "Casework"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-48"
+  },
+  {
+    "ID": "49",
+    "Problem": "What is the area of the region in the coordinate plane defined by\n\\[\n\\bigl|\\lvert x\\rvert - 2\\bigr| \\;+\\;\\bigl|\\lvert y\\rvert - 2\\bigr|\\;\\le 2\\;?\n\\]",
+    "Answer": 32,
+    "template_type": "Knowledge Application",
+    "knowledge_tags": [
+      "Coordinate Geometry",
+      "Absolute Value Functions",
+      "Graphing",
+      "Area Calculation",
+      "Geometric Shapes",
+      "Symmetry",
+      "Transformations"
+    ],
+    "original_dataset": "amc23_problems",
+    "custom_id": "amc23_problems-49"
+  }
+]

@@ -1,0 +1,342 @@
+[
+    "Step 1: Confirm that all variables are positive (satisfying the application conditions of basic inequalities)",
+    "Step 2: Apply basic inequalities to each variable combination (e.g., a\u00b2+b\u00b2\u22652ab, a+b\u22652\u221aab) to generate basic inequalities",
+    "Step 3: Overlay/combine the generated basic inequalities to form an overall inequality chain (e.g., adding a\u00b2+b\u00b2\u22652ab, b\u00b2+c\u00b2\u22652bc, a\u00b2+c\u00b2\u22652ac gives 2(a\u00b2+b\u00b2+c\u00b2)\u22652(ab+bc+ac))",
+    "Step 4: Combine known conditions (e.g., a+b+c=1) for algebraic transformation to convert the inequality to the target expression form",
+    "Step 5: Use the transitivity of inequalities to arrange the size relationship of the expressions"
+][
+    "Step 1: Confirm that the two planes are perpendicular - clarify the known perpendicular planes and their intersection line in the problem.",
+    "Step 2: Find the intersection line - determine the intersection line l of the two perpendicular planes.",
+    "Step 3: Draw a line perpendicular to the intersection line - draw a line a in one of the planes \u03b1 that satisfies a\u22a5l.",
+    "Step 4: Apply the theorem - based on the theorem of plane-plane perpendicularity, conclude that a\u22a5the other plane \u03b2.",
+    "Step 5: Establish the perpendicular relationship - use a\u22a5\u03b2 to deduce the required line-plane or line-line perpendicular relationships."
+][
+    "Step 1: Identify event A (known condition) and event B (condition to find)",
+    "Step 2: Verify that $P(A)>0$; if not met, this formula cannot be used",
+    "Step 3: Calculate $P(AB)$ (the probability of events A and B occurring together)",
+    "Step 4: Calculate $P(A)$ (the probability of event A occurring)",
+    "Step 5: Substitute into the formula $P(B|A)=\\\\frac{P(AB)}{P(A)}$ to calculate",
+    "Special case: When sample points can be counted directly, $P(B|A)=\\\\frac{n(AB)}{n(A)}$ (n represents the number of sample points)"
+][
+    "Standardization: Transform the inequality into the form ax\u00b2 + bx + c > 0 (with a > 0). If the coefficient of the quadratic term is negative, multiply both sides by -1 and reverse the inequality.",
+    "Calculate the discriminant \u0394: \u0394 = b\u00b2 - 4ac, to determine the nature of the roots.",
+    "Root interval determination: Classify based on the result of \u0394 (when \u0394 > 0, find roots x\u2081 < x\u2082; when \u0394 = 0, there is a double root x\u2080; when \u0394 < 0, there are no real roots).",
+    "Combination of Algebra and Geometry to determine the solution set: Based on the direction of the parabola and the distribution of roots, use the mnemonic 'greater takes both sides, lesser takes the middle' to determine the solution set."
+][][
+    "Step 1: Convert negative angle to positive angle (Formula 3) \u2192 Use Formula 1 to convert the angle to the range 0~2\u03c0",
+    "Step 2: Determine angle structure \u2192 Express the angle in the form k\u00b7\u03c0/2 \u00b1 \u03b1 (where k is an integer)",
+    "Step 3: Apply mnemonic \u2192 Determine if the function name changes based on the parity of k (odd changes, even stays the same), determine the sign based on the quadrant of k\u00b7\u03c0/2\u00b1\u03b1 (sign depends on quadrant)",
+    "Step 4: Acute angle calculation \u2192 Substitute values after converting to acute angle trigonometric functions",
+    "Step 5: Sign verification \u2192 Verify the reasonableness of the final sign based on the quadrant of the original angle"
+][
+    "Step 1: Determine all possible values. Analyze the problem context to clarify all possible outcomes of the random variable X (e.g., number of events, scores, costs, etc.), ensuring there are no duplicates or omissions.",
+    "Step 2: Calculate the probability of each value. Use combinatorics, classical probability, the multiplication formula for independent events, and the addition formula for mutually exclusive events to calculate P(X=x_i).",
+    "Step 3: Compile and verify the distribution table. Organize the values and their corresponding probabilities into a table, and check if they satisfy the two properties of a distribution: 1) all probabilities are non-negative; 2) the sum of all probabilities equals 1.",
+    "Step 4 (Special Cases): If parameter solving is involved, establish an equation through the sum of probabilities equaling 1; if finding the distribution of a composite random variable (e.g., Y=f(X)), probabilities for the same values need to be combined."
+][
+    "Step 1: Clarify the two expression forms of permutations\u2014product form A_n^m=n(n-1)...(n-m+1) and factorial form A_n^m=n!/(n-m)!.",
+    "Step 2: Choose the expression form based on the problem characteristics: prefer product form when m is a constant, and prefer factorial form when m is a variable.",
+    "Step 3: Unify both sides of the equation/equality to the same expression form for simplification (e.g., in example 1, expand A_{2x+1}^4 to (2x+1)(2x)(2x-1)(2x-2)).",
+    "Step 4: Transform the equation into a polynomial equation through factorization, cancellation, and other methods (e.g., in example 1, simplify to obtain 4x^2-35x+69=0).",
+    "Step 5: Solve the equation and verify the reasonableness of the solution, noting the implicit conditions for permutations n\u2265m and n,m\u2208N*.",
+    "Step 6: For identity proof problems, algebraic transformation methods (e.g., factorial expansion and cancellation) or combinatorial significance explanation methods (e.g., discussing whether to include specific elements) can be employed."
+][
+    "Confirm whether the logarithms involved in the problem have different bases or need a unified base.",
+    "Choose an appropriate new base (common bases: 10, e, or the base appearing in the problem).",
+    "Apply the change of base formula: log_a b = log_c b / log_c a.",
+    "Conclusion 1 (Reciprocal Base Change): log_a b = 1/log_b a \u2192 Handle reciprocal relationships.",
+    "Conclusion 2 (Chain Base Change): log_a b \u00d7 log_b c = log_a c \u2192 Simplify product structures.",
+    "Conclusion 3 (Power Conversion): log_{a^m} b^n = (n/m)log_a b \u2192 Handle cases involving powers in bases or arguments."
+][
+    "Step 1: Determine the basic sample space, list all possible sample points or provide characteristics of the sample points.",
+    "Step 2: Represent each event with sets, clarifying the specific sample points contained in each event (can use enumeration or descriptive methods).",
+    "Step 3: Choose the method based on the type of event operation: \u2460 direct set operations (intersection \u2229, union \u222a, complement) \u2461 Venn diagram auxiliary analysis \u2462 conversion to the sum of mutually exclusive events.",
+    "Step 4: Validate whether the operation results conform to event definitions (e.g., mutually exclusive events must ensure no common sample points, complementary events must meet the condition that their union equals the universal set)."
+][
+    "Step 1: Clarify the given conditions (lengths of three sides/vector coordinates/radius of incircle, etc.)",
+    "Step 2: Select the corresponding area formula based on the conditions: (a) Given three sides: Use Heron's formula S=\u221a[p(p-a)(p-b)(p-c)], where p=(a+b+c)/2, (b) Given vector coordinates: Use S=1/2|a\u2081b\u2082 - a\u2082b\u2081| (vector a=(a\u2081,a\u2082), b=(b\u2081,b\u2082)), (c) Given vector magnitudes and angles: Use S=1/2|a||b|sin\u03b8=1/2\u221a(|a|\u00b2|b|\u00b2 - (a\u00b7b)\u00b2), (d) Given circumradius: Use S=abc/(4R), (e) Given inradius: Use S=r\u00b7p",
+    "Step 3: Substitute the known data for calculation",
+    "Step 4: Verify the reasonableness of the result (such as triangle existence, non-negativity, etc.)"
+][
+    "Step 1: Determine the type of comparison strategy \u2460 If the algebraic expression is polynomial or can be expanded, prioritize the method of differences. \u2461 If the algebraic expression is a fraction and has the same sign, prioritize the method of ratios. \u2462 For expressions involving radicals, consider squaring transformations (ensure both sides are non-negative).",
+    "Step 2: Execute the chosen method, Method of Differences Process: Construct the difference expression A - B, Transform using common denominators/factoring/completing the square/rationalization, Determine the relationship of the transformed expression with 0 (positive/negative/zero) or Method of Ratios Process: Construct the ratio expression A/B (ensure A, B > 0), Simplify/factor/rationalize, Determine the relationship of the ratio with 1 (>1/<1/=1).",
+    "Step 3: Symbolic Judgment and Conclusion Derivation: \u2460 Method of Differences: A-B>0 \u21d2 A>B; A-B<0 \u21d2 A<B, \u2461 Method of Ratios: A/B>1 \u21d2 A>B (when A, B > 0), \u2462 When involving square transformations, verify original conditions retrospectively.",
+    "Step 4: Handling Special Cases: \u2460 When dealing with parameters, discuss the range of parameter values, \u2461 When using the method of ratios with fractions, pay attention to the sign of the denominator, \u2462 When comparing radicals, pay attention to domain restrictions."
+][
+    "Step 1: Clarify the two expression forms of permutations\u2014product form A_n^m=n(n-1)...(n-m+1) and factorial form A_n^m=n!/(n-m)!."
+][][][][
+    "Step 1: Determine the type of geometric shape (Prism/Pyramid/Frustum)",
+    "Step 2: Identify the bottom shape and parameters (Bottom perimeter C, area S, upper and lower base areas S' and S, etc.)",
+    "Step 3: Identify key geometric quantities (Height h, Slant height h', Slant length l, etc.)",
+    "Step 4: Substitute into the corresponding formulas for calculation:  - Lateral Area: Right prism lateral area = Ch; Regular pyramid lateral area = \u00bdCh'; Regular frustum lateral area = \u00bd(C+C')h'  - Surface Area = Lateral Area + Base Area (Prism adds 2 bases, Pyramid adds 1 base)  - Volume: Prism V = Sh; Pyramid V = \u2153Sh; Frustum V = \u2153h(S' + \u221a(S'S) + S)",
+    "Step 5: Verify unit consistency and parameter rationality (e.g., ratio of upper and lower bases of frustum)"
+][
+    "Step 1: Determine the center coordinates (a, b) and radius r of the original circle.",
+    "Step 2: Choose the processing method according to the type of symmetry: (2.1) If symmetric about a point, set the symmetry center as point P(m, n), then the new center coordinates are (2m - a, 2n - b).",
+    "(2.2) If symmetric about a line, set the symmetry axis as Ax + By + C = 0, use the formula for the symmetric point of a point concerning the line to solve for the new center coordinates: (2.2.1) \u2460 Let the new center be (a', b'), satisfying the equation system: (2.2.1.1) A(a' + a)/2 + B(b' + b)/2 + C = 0, (2.2.1.2) (a' - a)/A = (b' - b)/B (when A\u22600 and B\u22600); (2.2.2) Solve the equation system to obtain a', b'.",
+    "Step 3: Keep the radius r unchanged, substitute the new center into the standard equation of the circle: (x - a')\u00b2 + (y - b')\u00b2 = r\u00b2."
+][
+    "1. Determine the positional characteristics of point P within triangle ABC (e.g., whether it is the centroid, orthocenter, etc.)",
+    "2. According to the problem's conditions, compute the area ratios of \u25b3PBC, \u25b3PAC, and \u25b3PAB",
+    "3. Substitute into the Benz Theorem formula: S\u25b3PBC\u00b7PA + S\u25b3PAC\u00b7PB + S\u25b3PAB\u00b7PC = 0",
+    "4. If related to the four centers, utilize the corresponding area ratio relationships (e.g., centroid area ratio 1:1:1, orthocenter area ratio tanA:tanB:tanC)",
+    "5. Convert area ratios into vector coefficients to establish equations for solving unknowns"
+][
+    "Step 1: Determine the problem type - if the problem can be decomposed into independent categories, use the classification addition principle; if it requires continuous steps to complete, use the step-by-step multiplication principle.",
+    "Step 2: Prioritize simple cases - when the number of methods \u2264 10, use the enumeration method to directly exhaust all possible cases.",
+    "Step 3: Visualize multi-step problems - use tree diagrams to layer display each step's choice branches (such as example 5, the bee climbing the hive problem).",
+    "Step 4: Break through complex problems by working backwards - when direct calculation is difficult, calculate the total minus the cases that do not meet the conditions (such as example 6, the three-digit number problem: total of 9\u00d710\u00d710 - non-repetitive numbers of 9\u00d79\u00d78).",
+    "Step 5: Handle special constraint problems - for adjacent/non-adjacent limitations, use: 1) Element selection position method 2) Prioritize processing fixed special elements (such as example 4, processing the central area first in the coloring problem) 3) Comprehensive calculation in classification within groups/steps."
+][][
+    "Step 1: Establish the coordinate system. Choose special points in the shape (e.g., right angle vertices, symmetry centers) as the origin and coordinate the key points.",
+    "Step 2: Coordinate Representation of Vectors. Represent relevant vectors (e.g., vectors corresponding to line segments) using the difference between the endpoint coordinates and the starting point coordinates.",
+    "Step 3: Vector Operation Analysis. Determine perpendicularity by calculating the vector dot product (a\u00b7b=0), calculate lengths using the magnitude formula, and calculate the angle using cos\u03b8=(a\u00b7b)/(|a||b|).",
+    "Step 4: Convert Geometric Conclusions. Translate the results of vector operations back into geometric conclusions (e.g., if two vectors are perpendicular \u2192 the line segments are perpendicular, if magnitudes are equal \u2192 the lengths of the line segments are equal)."
+][
+    "1. **Definition Application**: According to the definition of a hyperbola, the absolute value of the difference of the two foci radii equals the length of the semi-major axis 2a, that is, |r\u2081 - r\u2082|=2a.",
+    "2. **Cosine Theorem**: Using the triangle cosine theorem, establish the equation 4c\u00b2 = r\u2081\u00b2 + r\u2082\u00b2 - 2r\u2081r\u2082cos\u03b8 (c is the focal length, \u03b8 is the angle at the triangle's vertex).",
+    "3. **Area Calculation**: Area formula S = \u00bdr\u2081r\u2082sin\u03b8 = b\u00b2 / tan(\u03b8/2) = c|y\u209a| (b is the length of the imaginary semi-axis, y\u209a is the vertical coordinate of point P).",
+    "4. **Eccentricity Relationship**: If eccentricity e is involved, combine e = c/a and c\u00b2 = a\u00b2 + b\u00b2 for transformation.",
+    "5. **Special Conclusions**: The x-coordinate of the incenter is \u00b1a; the shortest length of the focal chord is the diameter 2b\u00b2/a."
+][
+    "Step 1: Identify the geometric locations of the external point, tangent, and secant, labeling known quantities (like tangent length, lengths of secant segments)",
+    "Step 2: Apply the Secant-Tangent Theorem to establish the equation |tangent length|\u00b2 = |distance from external point to first intersection point of secant| \u00d7 |distance from external point to second intersection point of secant|",
+    "Step 3: Use additional geometric relationships, such as the Pythagorean theorem or similar triangles, to substitute known quantities into the equation to solve for the target variable",
+    "Step 4: If it involves optimization problems, use inequalities (like the Cauchy-Schwarz inequality) or function derivatives to analyze extreme values"
+][
+    "Step 1: Determine the type of geometric shape (Prism/Pyramid/Frustum)",
+    "Step 2: Identify the bottom shape and parameters (Bottom perimeter C, area S, upper and lower base areas S' and S, etc.)",
+    "Step 3: Identify key geometric quantities (Height h, Slant height h', Slant length l, etc.)",
+    "Step 4: Substitute into the corresponding formulas for calculation:  - Lateral Area: Right prism lateral area = Ch; Regular pyramid lateral area = \u00bdCh'; Regular frustum lateral area = \u00bd(C+C')h'  - Surface Area = Lateral Area + Base Area (Prism adds 2 bases, Pyramid adds 1 base)  - Volume: Prism V = Sh; Pyramid V = \u2153Sh; Frustum V = \u2153h(S' + \u221a(S'S) + S)",
+    "Step 5: Verify unit consistency and parameter rationality (e.g., ratio of upper and lower bases of frustum)"
+][
+    "Step 1: Problem Analysis and Data Organization    - Identify known conditions (measurable elements such as baseline length, angle values)    - Determine the quantity to be solved (distance/height/angle)    - Label terminology (convert azimuths to geometric angles, e.g., north-east 30\u00b0 \u2192 30\u00b0 from true north)",
+    "Step 2: Constructing a Geometric Model    - Draw a diagram based on the problem statement (including at least one triangle)    - Label all known points and quantities to be solved with letters    - Convert actual measurement data into triangular side-angle parameters",
+    "Step 3: Selecting Problem-Solving Tools    - When two sides and the included angle are known \u2192 use the Law of Cosines to directly calculate the third side    - When two angles and one side are known \u2192 use the Law of Sines to establish a proportional relationship    - When height calculations are involved \u2192 use the definitions of trigonometric functions",
+    "Step 4: Step-by-Step Calculation and Verification    - Prefer using the Law of Cosines for sides involving included angles    - For multi-triangle problems, solve the basic triangle first    - When using the Law of Sines to solve for angles, pay attention to the possibility of multiple solutions",
+    "Step 5: Result Interpretation    - Restore the calculation results to the actual problem answer    - Check for unit conversions (e.g., nautical miles to kilometers)    - Verify whether the results make sense in reality (e.g., the sum of triangle sides must be greater than the third side)"
+][
+    "1. Express 1 in trigonometric form: 1=1(cos0 + i sin0)",
+    "2. Let z=cos\u03b8 + i sin\u03b8 be a solution to the equation z^n=1, then according to De Moivre's theorem, cos(n\u03b8)+i sin(n\u03b8)=cos0 + i sin0",
+    "3. We have n\u03b8=2k\u03c0 \u21d2 \u03b8=2k\u03c0/n (k=0,1,2,...,n-1)",
+    "4. All roots are z_k=cos(2k\u03c0/n)+i sin(2k\u03c0/n) (k=0,1,...,n-1)",
+    "5. Special handling for specific n values: (a) For n=3, the roots are spaced 120\u00b0 apart: z=1, -1/2+\u221a3i/2, -1/2-\u221a3i/2, (b) For n=4, the roots are spaced 90\u00b0 apart: z=1, i, -1, -i, (c) For n=6, the roots are spaced 60\u00b0 apart: z=1, 1/2+\u221a3i/2, -1/2+\u221a3i/2, -1, -1/2-\u221a3i/2, 1/2-\u221a3i/2, (d) For n=8, the roots are spaced 45\u00b0 apart: z=cos(k\u03c0/4)+i sin(k\u03c0/4) (k=0,1,...,7)"
+][
+    "Step 1: Clarify the two expression forms of permutations\u2014product form A_n^m=n(n-1)...(n-m+1) and factorial form A_n^m=n!/(n-m)!.",
+    "Step 2: Choose the expression form based on the problem characteristics: prefer product form when m is a constant, and prefer factorial form when m is a variable.",
+    "Step 3: Unify both sides of the equation/equality to the same expression form for simplification (e.g., in example 1, expand A_{2x+1}^4 to (2x+1)(2x)(2x-1)(2x-2))."
+][
+    "Confirm whether the logarithms involved in the problem have different bases or need a unified base.",
+    "Choose an appropriate new base (common bases: 10, e, or the base appearing in the problem).",
+    "Apply the change of base formula: log_a b = log_c b / log_c a.",
+    "Conclusion 1 (Reciprocal Base Change): log_a b = 1/log_b a \u2192 Handle reciprocal relationships.",
+    "Conclusion 2 (Chain Base Change): log_a b \u00d7 log_b c = log_a c \u2192 Simplify product structures.",
+    "Conclusion 3 (Power Conversion): log_{a^m} b^n = (n/m)log_a b \u2192 Handle cases involving powers in bases or arguments."
+][
+    "Step 1: Identify the problem type. If it involves intersections between lines and circles, use the equation \\( x^2+y^2+Dx+Ey+F+\\lambda(Ax+By+C)=0 \\); if it involves intersections between two circles, use the equation \\( x^2+y^2+D_1x+E_1y+F_1+\\lambda(x^2+y^2+D_2x+E_2y+F_2)=0 \\) (\\( \\lambda \\neq -1 \\)).",
+    "Step 2: Organize the circle system equation into standard form, clarifying the expressions for the coordinates of the center and the radius.",
+    "Step 3: Substitute the additional conditions given in the problem (such as center position, radius length, etc.) to establish an equation in terms of \\( \\lambda \\).",
+    "Step 4: Solve the equation to find the value of \\( \\lambda \\), and substitute it back into the circle system equation to obtain a specific equation.",
+    "Step 5: Verify whether the result meets all the restriction conditions of the problem (such as excluding \\( \\lambda = -1 \\))."
+][][
+    "1. Determine the coordinates of the starting and ending points: Set starting point P\u2081(x\u2081,y\u2081), endpoint P\u2082(x\u2082,y\u2082)",
+    "2. Determine the fixed ratio \u03bb: Based on the problem statement, determine the ratio \u03bb = length from the starting point to the division point / length from the division point to the endpoint",
+    "3. Substitute into the coordinate formula to calculate the division point coordinates: x=(x\u2081+\u03bbx\u2082)/(1+\u03bb), y=(y\u2081+\u03bby\u2082)/(1+\u03bb)",
+    "4. Validate the result: Verify the position of the division point aligns with the sign rules of \u03bb through geometric relationships (\u03bb>0 for internal division, \u03bb<0 for external division)"
+][
+    "Step 1: Confirm Classical Probability Conditions - Check if the problem satisfies the two basic conditions of finite sample space and equal possibility; if so, proceed to the next step.",
+    "Step 2: Construct Sample Space - Use enumeration method, tree diagram method, or coordinate system method to clarify all possible outcomes, paying special attention to any special constraints in the problem (such as sampling without replacement).",
+    "Step 3: Event Corresponding Sample Point Analysis - Transform the desired event into a set operation on sample points; if necessary, use set illustrations or equation solving conditions to filter valid sample points.",
+    "Step 4: Probability Calculation and Verification - Apply the formula P(A)=n(A)/n(\u03a9) to calculate the probability, and verify the rationality of the result through probability properties (such as the sum of probabilities equals 1)."
+][
+    "Step 1: Clarify the elements and positions in the problem, and determine whether it is element selection for positions or position selection for elements.",
+    "Step 2: Prioritize handling special positions or elements with the most restrictive conditions to reduce subsequent computational complexity.",
+    "Step 3: If it is a step-by-step selection, calculate the possibilities of each step in logical order using the multiplication principle (N=m\u2081\u00d7m\u2082\u00d7...\u00d7m\u2099).",
+    "Step 4: If there are different categories of selection methods, summarize the results of each category using the addition principle (N=m\u2081+m\u2082+...+m\u2099).",
+    "Step 5: Verify the existence of duplicates or omissions, and use indirect methods to eliminate cases that do not meet the criteria if necessary."
+][
+    "Step 1: Determine the position of the foci of the ellipse. Compare the sizes of the denominators in the standard equations: if the denominator of x\u00b2 is larger, the focus is on the x-axis; if the denominator of y\u00b2 is larger, the focus is on the y-axis (mnemonic: focus follows the larger).",
+    "Step 2: Choose the corresponding standard equation form based on the position of the focus: if the focus is on the x-axis, use $\\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1$; if the focus is on the y-axis, use $\\frac{y^2}{a^2}+\\frac{x^2}{b^2}=1$ (always satisfying $a>b>0$).",
+    "Step 3: Establish an equation system using known conditions (such as vertices, foci, points on the ellipse). For example: if the focus coordinates are $(\\pm c,0)$, then satisfy $c^2=a^2-b^2$; if the ellipse passes through the point $(x_0,y_0)$, substitute into the equation $\\frac{x_0^2}{a^2}+\\frac{y_0^2}{b^2}=1$.",
+    "Step 4: Solve the equation system to find $a,b$, obtaining the standard equation of the ellipse.",
+    "Step 5: Use the geometric property formulas for direct calculations: the vertex coordinates are $(\\pm a,0),(0,\\pm b)$; eccentricity $e=\\frac{c}{a}$; range is determined by $a,b$ (the range in the direction of the axis where the focus is located is $[-a,a]$ or $[-b,b]$)."
+][
+    "Standardization: Transform the inequality into the form ax\u00b2 + bx + c > 0 (with a > 0). If the coefficient of the quadratic term is negative, multiply both sides by -1 and reverse the inequality.",
+    "Calculate the discriminant \u0394: \u0394 = b\u00b2 - 4ac, to determine the nature of the roots.",
+    "Root interval determination: Classify based on the result of \u0394 (when \u0394 > 0, find roots x\u2081 < x\u2082; when \u0394 = 0, there is a double root x\u2080; when \u0394 < 0, there are no real roots).",
+    "Combination of Algebra and Geometry to determine the solution set: Based on the direction of the parabola and the distribution of roots, use the mnemonic 'greater takes both sides, lesser takes the middle' to determine the solution set."
+][
+    "Step 1: Determine the period T=2\u03c0/|\u03c9|, clarifying the horizontal range of the graph.",
+    "Step 2: Calculate the x-coordinates of the five key points (set \u03c9x+\u03c6 equal to 0, \u03c0/2, \u03c0, 3\u03c0/2, 2\u03c0 and solve for x values).",
+    "Step 3: Calculate the corresponding y values (substitute x values to get the typical changes from 0\u2192A\u21920\u2192-A\u21920).",
+    "Step 4: Mark the five points in the coordinate system: (x,y) corresponding to 0, \u03c0/2, \u03c0, 3\u03c0/2, 2\u03c0.",
+    "Step 5: Connect the points with a smooth curve, noting to adjust the range of \u03c9x+\u03c6 according to the given interval (e.g., when the drawing area does not cover a complete period)."
+][
+    "Step 1: Determine if the set could possibly be empty. If the set contains parameters and appears as a subset, both the empty set and non-empty set cases must be discussed. Establish parameter constraints directly in the case of an empty set.",
+    "Step 2: If the set is non-empty, analyze the characteristics of the elements or use the number line to represent the range of the set. Establish equations through the correspondence of elements, or establish a system of inequalities by comparing the endpoints on the number line, being careful to verify if the endpoint values satisfy the original problem's conditions."
+][
+    "Step 1: Convert negative angle to positive angle (Formula 3) \u2192 Use Formula 1 to convert the angle to the range 0~2\u03c0",
+    "Step 2: Determine angle structure \u2192 Express the angle in the form k\u00b7\u03c0/2 \u00b1 \u03b1 (where k is an integer)",
+    "Step 3: Apply mnemonic \u2192 Determine if the function name changes based on the parity of k (odd changes, even stays the same), determine the sign based on the quadrant of k\u00b7\u03c0/2\u00b1\u03b1 (sign depends on quadrant)",
+    "Step 4: Acute angle calculation \u2192 Substitute values after converting to acute angle trigonometric functions",
+    "Step 5: Sign verification \u2192 Verify the reasonableness of the final sign based on the quadrant of the original angle"
+][
+    "Step 1: Determine the type of geometric shape (Prism/Pyramid/Frustum)",
+    "Step 2: Identify the bottom shape and parameters (Bottom perimeter C, area S, upper and lower base areas S' and S, etc.)",
+    "Step 3: Identify key geometric quantities (Height h, Slant height h', Slant length l, etc.)",
+    "Step 4: Substitute into the corresponding formulas for calculation:  - Lateral Area: Right prism lateral area = Ch; Regular pyramid lateral area = \u00bdCh'; Regular frustum lateral area = \u00bd(C+C')h'  - Surface Area = Lateral Area + Base Area (Prism adds 2 bases, Pyramid adds 1 base)  - Volume: Prism V = Sh; Pyramid V = \u2153Sh; Frustum V = \u2153h(S' + \u221a(S'S) + S)",
+    "Step 5: Verify unit consistency and parameter rationality (e.g., ratio of upper and lower bases of frustum)"
+][
+    "Step 1: Clarify the elements and positions in the problem, and determine whether it is element selection for positions or position selection for elements.",
+    "Step 2: Prioritize handling special positions or elements with the most restrictive conditions to reduce subsequent computational complexity.",
+    "Step 3: If it is a step-by-step selection, calculate the possibilities of each step in logical order using the multiplication principle (N=m\u2081\u00d7m\u2082\u00d7...\u00d7m\u2099).",
+    "Step 4: If there are different categories of selection methods, summarize the results of each category using the addition principle (N=m\u2081+m\u2082+...+m\u2099).",
+    "Step 5: Verify the existence of duplicates or omissions, and use indirect methods to eliminate cases that do not meet the criteria if necessary."
+][][
+    "[Chord Length Problem] Geometric Method: 1) Find the distance d from the circle center to the line; 2) Use the formula |AB|=2\u221a(r\u00b2-d\u00b2) to calculate the chord length.",
+    "[Chord Length Problem] Algebraic Method: 1) Combine the line and circle equations to form a quadratic equation; 2) Use the relationships between roots and coefficients to find |x\u2081-x\u2082| or |y\u2081-y\u2082|; 3) Calculate using the chord length formula |AB|=\u221a(1+k\u00b2)|x\u2081-x\u2082| or \u221a(1+1/k\u00b2)|y\u2081-y\u2082|.",
+    "[Midpoint Chord Problem] Point Difference Method: 1) Let the coordinates of the chord endpoints be (x\u2081,y\u2081) and (x\u2082,y\u2082); 2) Substitute the coordinates into the circle equation and take the difference; 3) Establish an equation using the midpoint formula and slope relationship.",
+    "[Midpoint Chord Problem] Geometric Property Method: 1) Determine the line connecting the circle center and the midpoint of the chord; 2) Use the property that this line is perpendicular to the chord to find the slope; 3) Write the line equation using the point-slope form."
+][][
+    "Step 1: Determine whether the target angle is in the form of k\u00b7\u03c0/2\u00b1\u03b1 (k\u2208Z)",
+    "Step 2: Use the mnemonic 'Odd Changes, Even Unchanged' to decide if the function name should change (when k is odd, sin\u2194cos, tan remains)",
+    "Step 3: Treat \u03b1 as an acute angle and determine the quadrant of k\u00b7\u03c0/2\u00b1\u03b1",
+    "Step 4: Determine the sign of the original trigonometric value based on 'Signs Based on Quadrants'"
+][][][][
+    "Step 1: Establish Coordinate System - Choose an appropriate coordinate origin based on the problem context (such as the midpoint of two points or a special landmark) to establish a rectangular coordinate system.",
+    "Step 2: Set Variables - Use coordinates (x,y) to represent the position of the target point, marking the coordinates of known points.",
+    "Step 3: Translate Conditions - Convert the conditions described in words into mathematical expressions (such as distance ratio \u2192 proportion equation, maximum area \u2192 geometric extremum).",
+    "Step 4: Establish Equations - Create equations concerning x and y based on the conditions (Key point: Utilize the standard/general form of the circle equation).",
+    "Step 5: Simplify Equations - Through squaring and rearranging, obtain the standard form of the circle equation: (X-a)\u00b2+(Y-b)\u00b2=R\u00b2.",
+    "Step 6: Geometric Analysis - Determine the position of the center of the circle and the size of the radius, combining the constraint conditions (such as area restrictions) to determine the effective solution range.",
+    "Step 7: Find Optimal Value Solution - When parameter optimization is required, use geometric properties (such as the maximum distance from a point on the circle to a line) or algebraic methods to solve for extremes.",
+    "Step 8: Verify Answer - Check if the solution conforms to practical significance (such as non-negative distances, positions conforming to area restrictions, etc.)"
+][
+    "Step 1: Confirm Classical Probability Conditions - Check if the problem satisfies the two basic conditions of finite sample space and equal possibility; if so, proceed to the next step.",
+    "Step 2: Construct Sample Space - Use enumeration method, tree diagram method, or coordinate system method to clarify all possible outcomes, paying special attention to any special constraints in the problem (such as sampling without replacement).",
+    "Step 3: Event Corresponding Sample Point Analysis - Transform the desired event into a set operation on sample points; if necessary, use set illustrations or equation solving conditions to filter valid sample points.",
+    "Step 4: Probability Calculation and Verification - Apply the formula P(A)=n(A)/n(\u03a9) to calculate the probability, and verify the rationality of the result through probability properties (such as the sum of probabilities equals 1)."
+][
+    "Confirm whether the logarithms involved in the problem have different bases or need a unified base.",
+    "Choose an appropriate new base (common bases: 10, e, or the base appearing in the problem).",
+    "Apply the change of base formula: log_a b = log_c b / log_c a.",
+    "Conclusion 1 (Reciprocal Base Change): log_a b = 1/log_b a \u2192 Handle reciprocal relationships.",
+    "Conclusion 2 (Chain Base Change): log_a b \u00d7 log_b c = log_a c \u2192 Simplify product structures.",
+    "Conclusion 3 (Power Conversion): log_{a^m} b^n = (n/m)log_a b \u2192 Handle cases involving powers in bases or arguments."
+][
+    "Step 1: Determine the standard equations of the two circles, write down the coordinates of the centers and the radii (if in general form, first convert to standard form)"
+][
+    "Step 1: Write the recursion relation from a_2 to a_n (if using the accumulation method, expand a_n - a_{n-1} = f(n-1); if using the multiplication method, expand a_n/a_{n-1} = f(n-1)).",
+    "Step 2: Arrange all recursion equations in order (accumulation method arranges the difference formulas vertically; multiplication method arranges the ratio formulas vertically).",
+    "Step 3: Perform addition or multiplication (accumulation method adds all difference formulas to eliminate intermediate terms; multiplication method multiplies all ratio formulas to eliminate intermediate terms).",
+    "Step 4: Organize the resulting expression to obtain a_n = a_1 + \u03a3_{k=1}^{n-1}f(k) (accumulation method) or a_n = a_1\u00b7\u03a0_{k=1}^{n-1}f(k) (multiplication method).",
+    "Step 5: Verify if a_1 meets the final general term formula; represent piecewise if necessary."
+][
+    "Step 1: Confirm Classical Probability Conditions - Check if the problem satisfies the two basic conditions of finite sample space and equal possibility; if so, proceed to the next step.",
+    "Step 2: Construct Sample Space - Use enumeration method, tree diagram method, or coordinate system method to clarify all possible outcomes, paying special attention to any special constraints in the problem (such as sampling without replacement).",
+    "Step 3: Event Corresponding Sample Point Analysis - Transform the desired event into a set operation on sample points; if necessary, use set illustrations or equation solving conditions to filter valid sample points.",
+    "Step 4: Probability Calculation and Verification - Apply the formula P(A)=n(A)/n(\u03a9) to calculate the probability, and verify the rationality of the result through probability properties (such as the sum of probabilities equals 1)."
+][][
+    "Step 1: Clarify the two expression forms of permutations\u2014product form A_n^m=n(n-1)...(n-m+1) and factorial form A_n^m=n!/(n-m)!.",
+    "Step 2: Choose the expression form based on the problem characteristics: prefer product form when m is a constant, and prefer factorial form when m is a variable.",
+    "Step 3: Unify both sides of the equation/equality to the same expression form for simplification (e.g., in example 1, expand A_{2x+1}^4 to (2x+1)(2x)(2x-1)(2x-2)).",
+    "Step 4: Transform the equation into a polynomial equation through factorization, cancellation, and other methods (e.g., in example 1, simplify to obtain 4x^2-35x+69=0).",
+    "Step 5: Solve the equation and verify the reasonableness of the solution, noting the implicit conditions for permutations n\u2265m and n,m\u2208N*.",
+    "Step 6: For identity proof problems, algebraic transformation methods (e.g., factorial expansion and cancellation) or combinatorial significance explanation methods (e.g., discussing whether to include specific elements) can be employed."
+][
+    "Step 1: Write the recursion relation from a_2 to a_n (if using the accumulation method, expand a_n - a_{n-1} = f(n-1); if using the multiplication method, expand a_n/a_{n-1} = f(n-1)).",
+    "Step 2: Arrange all recursion equations in order (accumulation method arranges the difference formulas vertically; multiplication method arranges the ratio formulas vertically).",
+    "Step 3: Perform addition or multiplication (accumulation method adds all difference formulas to eliminate intermediate terms; multiplication method multiplies all ratio formulas to eliminate intermediate terms).",
+    "Step 4: Organize the resulting expression to obtain a_n = a_1 + \u03a3_{k=1}^{n-1}f(k) (accumulation method) or a_n = a_1\u00b7\u03a0_{k=1}^{n-1}f(k) (multiplication method).",
+    "Step 5: Verify if a_1 meets the final general term formula; represent piecewise if necessary."
+][
+    "Step 1: Introduce the substitution variable t=tan(\u03b1/2), determining the range of \u03b1 to avoid division by zero.",
+    "Step 2: Replace sin\u03b1 and cos\u03b1 with expressions in terms of t, according to the Universal Formula: \\n   sin\u03b1=2t/(1+t\u00b2),\\n   cos\u03b1=(1-t\u00b2)/(1+t\u00b2),\\n   tan\u03b1=2t/(1-t\u00b2)",
+    "Step 3: Replace each term in the original trigonometric expression with rational expressions in terms of t.",
+    "Step 4: Simplify the resulting rational fraction (finding a common denominator, factoring, etc.).",
+    "Step 5: Perform subsequent processing as required by the problem, such as evaluating, solving equations, integrating, etc."
+][][][
+    "Step 1: Determine all possible values. Analyze the problem context to clarify all possible outcomes of the random variable X (e.g., number of events, scores, costs, etc.), ensuring there are no duplicates or omissions.",
+    "Step 2: Calculate the probability of each value. Use combinatorics, classical probability, the multiplication formula for independent events, and the addition formula for mutually exclusive events to calculate P(X=x_i).",
+    "Step 3: Compile and verify the distribution table. Organize the values and their corresponding probabilities into a table, and check if they satisfy the two properties of a distribution: 1) all probabilities are non-negative; 2) the sum of all probabilities equals 1.",
+    "Step 4 (Special Cases): If parameter solving is involved, establish an equation through the sum of probabilities equaling 1; if finding the distribution of a composite random variable (e.g., Y=f(X)), probabilities for the same values need to be combined."
+][
+    "Step 1: Determine the range of the logarithmic function's base a (a > 1 or 0 < a < 1)",
+    "Step 2: Determine the monotonicity of the logarithmic function based on the base range (increasing when a > 1, decreasing when 0 < a < 1)",
+    "Step 3: Transform the problem into a comparison of the arguments or an inequality (note to keep the direction of the inequality consistent with the monotonicity)",
+    "Step 4: Solve the transformed algebraic inequality and verify the domain (the argument must be > 0)",
+    "Step 5: For composite function problems, decompose into a combination of basic logarithmic functions and inner functions, applying the 'same increase, different decrease' principle",
+    "Step 6: When the parameter's position is in the base, classify and discuss changes in monotonicity under different conditions"
+][
+    "Step 1: Determine all possible values. Analyze the problem context to clarify all possible outcomes of the random variable X (e.g., number of events, scores, costs, etc.), ensuring there are no duplicates or omissions.",
+    "Step 2: Calculate the probability of each value. Use combinatorics, classical probability, the multiplication formula for independent events, and the addition formula for mutually exclusive events to calculate P(X=x_i).",
+    "Step 3: Compile and verify the distribution table. Organize the values and their corresponding probabilities into a table, and check if they satisfy the two properties of a distribution: 1) all probabilities are non-negative; 2) the sum of all probabilities equals 1.",
+    "Step 4 (Special Cases): If parameter solving is involved, establish an equation through the sum of probabilities equaling 1; if finding the distribution of a composite random variable (e.g., Y=f(X)), probabilities for the same values need to be combined."
+][
+    "Step 1: Set standard form - Define the standard form of the exponential function y=a^x (a>0, a\u22601) or a form with coefficients y=k\u00b7a^{x+c}+b based on the problem statement.",
+    "Step 2: Substitute conditions and establish equations - Substitute known point coordinates/function value relationships/monotonicity conditions to establish equations or inequalities.",
+    "Step 3: Transform into algebraic expressions - Utilize properties of exponential operations (e.g., a^m\u00b7a^n=a^{m+n}) to convert the equations into algebraic equations.",
+    "Step 4: Solve and verify equations - Solve the algebraic equations to obtain parameter values and verify the constraints a>0 and a\u22601.",
+    "Step 5: Back-substitute to obtain conclusions - Substitute the obtained parameters back into the original function form to get the final result."
+][
+    "Step 1: Clarify the known conditions and write down the line equation and the circle equation",
+    "Step 2: Choose either the algebraic method or the geometric method: Algebraic method steps: a. Substitute the line equation into the circle equation to eliminate variables and obtain a quadratic equation in one variable; b. Calculate the discriminant \u0394 = b\u00b2 - 4ac; c. Assess \u0394: \u0394 > 0 \u2192 intersect (two solutions), \u0394 = 0 \u2192 tangent (one solution), \u0394 < 0 \u2192 separate (no solution)",
+    "Geometric method steps: a. Calculate the center coordinates (a, b) and radius r of the circle; b. Use the distance formula to calculate the distance from the circle's center to the line d = |Aa + Bb + C| / \u221a(A\u00b2 + B\u00b2); c. Compare d and r: d < r \u2192 intersect, d = r \u2192 tangent, d > r \u2192 separate",
+    "Step 3: Draw a conclusion based on the problem requirements (number of common points / position relationship)"
+][
+    "Step 1: Establish Coordinate System - Choose an appropriate coordinate origin based on the problem context (such as the midpoint of two points or a special landmark) to establish a rectangular coordinate system.",
+    "Step 2: Set Variables - Use coordinates (x,y) to represent the position of the target point, marking the coordinates of known points.",
+    "Step 3: Translate Conditions - Convert the conditions described in words into mathematical expressions (such as distance ratio \u2192 proportion equation, maximum area \u2192 geometric extremum).",
+    "Step 4: Establish Equations - Create equations concerning x and y based on the conditions (Key point: Utilize the standard/general form of the circle equation).",
+    "Step 5: Simplify Equations - Through squaring and rearranging, obtain the standard form of the circle equation: (X-a)\u00b2+(Y-b)\u00b2=R\u00b2.",
+    "Step 6: Geometric Analysis - Determine the position of the center of the circle and the size of the radius, combining the constraint conditions (such as area restrictions) to determine the effective solution range.",
+    "Step 7: Find Optimal Value Solution - When parameter optimization is required, use geometric properties (such as the maximum distance from a point on the circle to a line) or algebraic methods to solve for extremes.",
+    "Step 8: Verify Answer - Check if the solution conforms to practical significance (such as non-negative distances, positions conforming to area restrictions, etc.)"
+][
+    "Step 1: Establish Coordinate System - Choose an appropriate coordinate origin based on the problem context (such as the midpoint of two points or a special landmark) to establish a rectangular coordinate system.",
+    "Step 2: Set Variables - Use coordinates (x,y) to represent the position of the target point, marking the coordinates of known points.",
+    "Step 3: Translate Conditions - Convert the conditions described in words into mathematical expressions (such as distance ratio \u2192 proportion equation, maximum area \u2192 geometric extremum).",
+    "Step 4: Establish Equations - Create equations concerning x and y based on the conditions (Key point: Utilize the standard/general form of the circle equation).",
+    "Step 5: Simplify Equations - Through squaring and rearranging, obtain the standard form of the circle equation: (X-a)\u00b2+(Y-b)\u00b2=R\u00b2.",
+    "Step 6: Geometric Analysis - Determine the position of the center of the circle and the size of the radius, combining the constraint conditions (such as area restrictions) to determine the effective solution range.",
+    "Step 7: Find Optimal Value Solution - When parameter optimization is required, use geometric properties (such as the maximum distance from a point on the circle to a line) or algebraic methods to solve for extremes.",
+    "Step 8: Verify Answer - Check if the solution conforms to practical significance (such as non-negative distances, positions conforming to area restrictions, etc.)"
+][
+    "Step 1: Write the complex number in standard algebraic form z = a + bi, clearly identifying its real part a and imaginary part b",
+    "Step 2: Directly apply the magnitude formula |z| = \u221a(a\u00b2 + b\u00b2) to calculate the value",
+    "Step 3 (Geometric Conversion): If involved in geometric meanings, convert the complex number to coordinates (a, b) in the complex plane; the magnitude is then the distance from that point to the origin",
+    "Step 4 (Parameter Solving): If the value of the magnitude is known and parameters are sought, set up the equation \u221a(a\u00b2 + b\u00b2) = |z| and solve the equation",
+    "Step 5 (Geometric Optimization Problems): Analyze the geometric shape corresponding to the complex number's points (e.g., circles, lines, etc.) and use geometric methods (such as the distance formula between two points) to find the optimal value of the magnitude"
+][
+    "Step 1: Determine the type of geometric shape (Prism/Pyramid/Frustum)",
+    "Step 2: Identify the bottom shape and parameters (Bottom perimeter C, area S, upper and lower base areas S' and S, etc.)",
+    "Step 3: Identify key geometric quantities (Height h, Slant height h', Slant length l, etc.)",
+    "Step 4: Substitute into the corresponding formulas for calculation:  - Lateral Area: Right prism lateral area = Ch; Regular pyramid lateral area = \u00bdCh'; Regular frustum lateral area = \u00bd(C+C')h'  - Surface Area = Lateral Area + Base Area (Prism adds 2 bases, Pyramid adds 1 base)  - Volume: Prism V = Sh; Pyramid V = \u2153Sh; Frustum V = \u2153h(S' + \u221a(S'S) + S)",
+    "Step 5: Verify unit consistency and parameter rationality (e.g., ratio of upper and lower bases of frustum)"
+][][][
+    "Step 1: Problem Analysis and Data Organization    - Identify known conditions (measurable elements such as baseline length, angle values)    - Determine the quantity to be solved (distance/height/angle)    - Label terminology (convert azimuths to geometric angles, e.g., north-east 30\u00b0 \u2192 30\u00b0 from true north)",
+    "Step 2: Constructing a Geometric Model    - Draw a diagram based on the problem statement (including at least one triangle)    - Label all known points and quantities to be solved with letters    - Convert actual measurement data into triangular side-angle parameters",
+    "Step 3: Selecting Problem-Solving Tools    - When two sides and the included angle are known \u2192 use the Law of Cosines to directly calculate the third side    - When two angles and one side are known \u2192 use the Law of Sines to establish a proportional relationship    - When height calculations are involved \u2192 use the definitions of trigonometric functions",
+    "Step 4: Step-by-Step Calculation and Verification    - Prefer using the Law of Cosines for sides involving included angles    - For multi-triangle problems, solve the basic triangle first    - When using the Law of Sines to solve for angles, pay attention to the possibility of multiple solutions",
+    "Step 5: Result Interpretation    - Restore the calculation results to the actual problem answer    - Check for unit conversions (e.g., nautical miles to kilometers)    - Verify whether the results make sense in reality (e.g., the sum of triangle sides must be greater than the third side)"
+][
+    "Step 1: Clarify the two expression forms of permutations\u2014product form A_n^m=n(n-1)...(n-m+1) and factorial form A_n^m=n!/(n-m)!."
+][
+    "Step 1: Determine all possible values. Analyze the problem context to clarify all possible outcomes of the random variable X (e.g., number of events, scores, costs, etc.), ensuring there are no duplicates or omissions.",
+    "Step 2: Calculate the probability of each value. Use combinatorics, classical probability, the multiplication formula for independent events, and the addition formula for mutually exclusive events to calculate P(X=x_i).",
+    "Step 3: Compile and verify the distribution table. Organize the values and their corresponding probabilities into a table, and check if they satisfy the two properties of a distribution: 1) all probabilities are non-negative; 2) the sum of all probabilities equals 1.",
+    "Step 4 (Special Cases): If parameter solving is involved, establish an equation through the sum of probabilities equaling 1; if finding the distribution of a composite random variable (e.g., Y=f(X)), probabilities for the same values need to be combined."
+][][
+    "Step 1: Transform line segments in the geometric figure into vector representations, marking known conditions (such as magnitudes, angles, midpoints, etc.)",
+    "Step 2: Choose vector expressions based on the problem objective (such as using vector addition and subtraction to express geometric relationships)",
+    "Step 3: Use the dot product formula **a\u00b7b = |a||b|cos\u03b8** or the projection vector formula **Projection Vector = |a|cos\u03b8\u00b7(unit vector of b)** to expand calculations"
+][][][][][
+    "Step 1: Determine if the set could possibly be empty. If the set contains parameters and appears as a subset, both the empty set and non-empty set cases must be discussed. Establish parameter constraints directly in the case of an empty set.",
+    "Step 2: If the set is non-empty, analyze the characteristics of the elements or use the number line to represent the range of the set. Establish equations through the correspondence of elements, or establish a system of inequalities by comparing the endpoints on the number line, being careful to verify if the endpoint values satisfy the original problem's conditions."
+][
+    "Step 1: Clarify the type of problem and identify the involved function properties (parity/monotonicity/symmetry)",
+    "Step 2: If involving parity, check the symmetry of the domain and transform variables through the relationship between f(-x) and f(x) (e.g., transforming 2a+1 into |2a+1| in Example 23)",
+    "Step 3: If involving monotonicity, determine the monotonic interval and compare the sizes of independent variables (e.g., using the 'same increase, different decrease' principle)",
+    "Step 4: If involving symmetry, determine the axis/center of symmetry through relationships such as f(a+x)=f(b-x)",
+    "Step 5: When dealing with piecewise functions, separately analyze the properties of each segment and check the continuity at boundary points"
+]
